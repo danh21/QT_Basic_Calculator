@@ -1,0 +1,9 @@
+D:/cd/QT_Cpp/Project/QT_Basic_Calculator/build-Calculator-Desktop_Qt_6_5_2_MinGW_64_bit-Debug/CMakeFiles/Calculator.dir
+D:/cd/QT_Cpp/Project/QT_Basic_Calculator/build-Calculator-Desktop_Qt_6_5_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/cd/QT_Cpp/Project/QT_Basic_Calculator/build-Calculator-Desktop_Qt_6_5_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/cd/QT_Cpp/Project/QT_Basic_Calculator/build-Calculator-Desktop_Qt_6_5_2_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+D:/cd/QT_Cpp/Project/QT_Basic_Calculator/build-Calculator-Desktop_Qt_6_5_2_MinGW_64_bit-Debug/CMakeFiles/install.dir
+D:/cd/QT_Cpp/Project/QT_Basic_Calculator/build-Calculator-Desktop_Qt_6_5_2_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+D:/cd/QT_Cpp/Project/QT_Basic_Calculator/build-Calculator-Desktop_Qt_6_5_2_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+D:/cd/QT_Cpp/Project/QT_Basic_Calculator/build-Calculator-Desktop_Qt_6_5_2_MinGW_64_bit-Debug/CMakeFiles/Calculator_autogen_timestamp_deps.dir
+D:/cd/QT_Cpp/Project/QT_Basic_Calculator/build-Calculator-Desktop_Qt_6_5_2_MinGW_64_bit-Debug/CMakeFiles/Calculator_autogen.dir

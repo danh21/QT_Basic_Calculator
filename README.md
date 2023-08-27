@@ -1,1 +1,2 @@
-# QT_Basic_Calculator
+# Description
+    Calculate sum of 2 numbers
