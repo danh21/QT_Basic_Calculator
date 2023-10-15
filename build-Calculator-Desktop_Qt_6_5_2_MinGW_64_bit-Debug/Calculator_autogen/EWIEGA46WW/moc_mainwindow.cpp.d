@@ -3,6 +3,7 @@ D:/cd/QT_Cpp/Project/QT_Basic_Calculator/build-Calculator-Desktop_Qt_6_5_2_MinGW
   D:/phan_mem/Qt_creator/Qt/6.5.2/mingw_64/include/QtCore/QList \
   D:/phan_mem/Qt_creator/Qt/6.5.2/mingw_64/include/QtCore/QObject \
   D:/phan_mem/Qt_creator/Qt/6.5.2/mingw_64/include/QtCore/QRect \
+  D:/phan_mem/Qt_creator/Qt/6.5.2/mingw_64/include/QtCore/QSettings \
   D:/phan_mem/Qt_creator/Qt/6.5.2/mingw_64/include/QtCore/QSize \
   D:/phan_mem/Qt_creator/Qt/6.5.2/mingw_64/include/QtCore/QSizeF \
   D:/phan_mem/Qt_creator/Qt/6.5.2/mingw_64/include/QtCore/q20memory.h \
@@ -76,6 +77,7 @@ D:/cd/QT_Cpp/Project/QT_Basic_Calculator/build-Calculator-Desktop_Qt_6_5_2_MinGW
   D:/phan_mem/Qt_creator/Qt/6.5.2/mingw_64/include/QtCore/qscopedpointer.h \
   D:/phan_mem/Qt_creator/Qt/6.5.2/mingw_64/include/QtCore/qscopeguard.h \
   D:/phan_mem/Qt_creator/Qt/6.5.2/mingw_64/include/QtCore/qset.h \
+  D:/phan_mem/Qt_creator/Qt/6.5.2/mingw_64/include/QtCore/qsettings.h \
   D:/phan_mem/Qt_creator/Qt/6.5.2/mingw_64/include/QtCore/qshareddata.h \
   D:/phan_mem/Qt_creator/Qt/6.5.2/mingw_64/include/QtCore/qshareddata_impl.h \
   D:/phan_mem/Qt_creator/Qt/6.5.2/mingw_64/include/QtCore/qsharedpointer.h \

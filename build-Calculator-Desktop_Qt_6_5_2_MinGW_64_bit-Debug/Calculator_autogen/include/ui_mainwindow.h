@@ -29,7 +29,7 @@ public:
     QLabel *label_2;
     QLineEdit *num1;
     QPushButton *calcBtn;
-    QPushButton *closeBtn;
+    QPushButton *resetBtn;
     QLineEdit *num2;
     QLineEdit *result;
     QMenuBar *menubar;
@@ -65,10 +65,10 @@ public:
         calcBtn->setObjectName("calcBtn");
         calcBtn->setGeometry(QRect(110, 290, 171, 61));
         calcBtn->setFont(font);
-        closeBtn = new QPushButton(centralwidget);
-        closeBtn->setObjectName("closeBtn");
-        closeBtn->setGeometry(QRect(220, 390, 171, 61));
-        closeBtn->setFont(font);
+        resetBtn = new QPushButton(centralwidget);
+        resetBtn->setObjectName("resetBtn");
+        resetBtn->setGeometry(QRect(220, 390, 171, 61));
+        resetBtn->setFont(font);
         num2 = new QLineEdit(centralwidget);
         num2->setObjectName("num2");
         num2->setGeometry(QRect(370, 190, 161, 61));
@@ -104,7 +104,7 @@ public:
         label->setText(QCoreApplication::translate("MainWindow", "Enter the first number: ", nullptr));
         label_2->setText(QCoreApplication::translate("MainWindow", "Enter the second number: ", nullptr));
         calcBtn->setText(QCoreApplication::translate("MainWindow", "Calculate", nullptr));
-        closeBtn->setText(QCoreApplication::translate("MainWindow", "Close", nullptr));
+        resetBtn->setText(QCoreApplication::translate("MainWindow", "Reset", nullptr));
     } // retranslateUi
 
 };

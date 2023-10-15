@@ -12,7 +12,9 @@ MainWindow::MainWindow(QWidget *parent)
     this->setWindowTitle("SUM CALCULATOR");
 
     connect(ui->calcBtn, SIGNAL(clicked(bool)), this, SLOT(sumCalc()));
-    connect(ui->closeBtn, SIGNAL(clicked(bool)), this, SLOT(close()));
+    connect(ui->resetBtn, SIGNAL(clicked(bool)), this, SLOT(reset()));
+
+    loadSettings();
 }
 
 
@@ -48,6 +50,43 @@ void MainWindow::sumCalc()
 
 void MainWindow::closeEvent(QCloseEvent *e)
 {
+    saveSettings();
+
     if (QMessageBox::question(this, "CONFIRM", "Do you want to exit app ?") == QMessageBox::No)
         e->ignore();
+
+
+}
+
+
+
+void MainWindow::reset()
+{
+    ui->num1->clear();
+    ui->num2->clear();
+    ui->result->clear();
+}
+
+
+
+void MainWindow::saveSettings()
+{
+    QSettings setting("Danh21", "Calculator");
+    setting.beginGroup("saveFields");
+    setting.setValue("num1", ui->num1->text());
+    setting.setValue("num2", ui->num2->text());
+    setting.setValue("result", ui->result->text());
+    setting.endGroup();
+}
+
+
+
+void MainWindow::loadSettings()
+{
+    QSettings setting("Danh21", "Calculator");
+    setting.beginGroup("saveFields");
+    ui->num1->setText(setting.value("num1").toString());
+    ui->num2->setText(setting.value("num2").toString());
+    ui->result->setText(setting.value("result").toString());
+    setting.endGroup();
 }

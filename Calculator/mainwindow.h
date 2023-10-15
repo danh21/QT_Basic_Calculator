@@ -6,6 +6,7 @@
 #include <QMainWindow>
 #include <QMessageBox>
 #include <QCloseEvent>
+#include <QSettings>
 
 
 
@@ -31,6 +32,9 @@ protected:
 
 private slots:
     void sumCalc(void);
+    void reset(void);
+    void saveSettings(void);
+    void loadSettings(void);
 };
 
 
