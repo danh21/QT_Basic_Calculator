@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 6.5.2
+** Created by: Qt User Interface Compiler version 6.3.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -25,72 +25,68 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
-    QLabel *label;
-    QLabel *label_2;
-    QLineEdit *num1;
     QPushButton *calcBtn;
-    QPushButton *resetBtn;
+    QLabel *label;
+    QLineEdit *num1;
+    QLabel *label_2;
     QLineEdit *num2;
     QLineEdit *result;
+    QPushButton *resetBtn;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
-            MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(649, 516);
+            MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
+        MainWindow->resize(800, 600);
         centralwidget = new QWidget(MainWindow);
-        centralwidget->setObjectName("centralwidget");
-        label = new QLabel(centralwidget);
-        label->setObjectName("label");
-        label->setGeometry(QRect(80, 90, 241, 51));
+        centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
+        calcBtn = new QPushButton(centralwidget);
+        calcBtn->setObjectName(QString::fromUtf8("calcBtn"));
+        calcBtn->setGeometry(QRect(140, 290, 181, 71));
         QFont font;
         font.setPointSize(14);
-        label->setFont(font);
-        label_2 = new QLabel(centralwidget);
-        label_2->setObjectName("label_2");
-        label_2->setGeometry(QRect(80, 190, 271, 51));
-        label_2->setFont(font);
-        num1 = new QLineEdit(centralwidget);
-        num1->setObjectName("num1");
-        num1->setGeometry(QRect(370, 90, 161, 61));
-        QFont font1;
-        font1.setPointSize(16);
-        num1->setFont(font1);
-        num1->setMouseTracking(false);
-        num1->setTabletTracking(false);
-        num1->setAlignment(Qt::AlignCenter);
-        calcBtn = new QPushButton(centralwidget);
-        calcBtn->setObjectName("calcBtn");
-        calcBtn->setGeometry(QRect(110, 290, 171, 61));
         calcBtn->setFont(font);
-        resetBtn = new QPushButton(centralwidget);
-        resetBtn->setObjectName("resetBtn");
-        resetBtn->setGeometry(QRect(220, 390, 171, 61));
-        resetBtn->setFont(font);
+        label = new QLabel(centralwidget);
+        label->setObjectName(QString::fromUtf8("label"));
+        label->setGeometry(QRect(110, 100, 251, 41));
+        label->setFont(font);
+        num1 = new QLineEdit(centralwidget);
+        num1->setObjectName(QString::fromUtf8("num1"));
+        num1->setGeometry(QRect(420, 90, 221, 71));
+        QFont font1;
+        font1.setPointSize(14);
+        font1.setBold(false);
+        num1->setFont(font1);
+        num1->setAlignment(Qt::AlignCenter);
+        label_2 = new QLabel(centralwidget);
+        label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2->setGeometry(QRect(110, 200, 281, 41));
+        label_2->setFont(font);
         num2 = new QLineEdit(centralwidget);
-        num2->setObjectName("num2");
-        num2->setGeometry(QRect(370, 190, 161, 61));
+        num2->setObjectName(QString::fromUtf8("num2"));
+        num2->setGeometry(QRect(420, 190, 221, 71));
         num2->setFont(font1);
-        num2->setMouseTracking(false);
-        num2->setTabletTracking(false);
         num2->setAlignment(Qt::AlignCenter);
         result = new QLineEdit(centralwidget);
-        result->setObjectName("result");
-        result->setGeometry(QRect(370, 290, 161, 61));
+        result->setObjectName(QString::fromUtf8("result"));
+        result->setGeometry(QRect(420, 290, 221, 71));
         result->setFont(font1);
-        result->setMouseTracking(false);
-        result->setTabletTracking(false);
         result->setAlignment(Qt::AlignCenter);
         result->setReadOnly(true);
+        result->setClearButtonEnabled(false);
+        resetBtn = new QPushButton(centralwidget);
+        resetBtn->setObjectName(QString::fromUtf8("resetBtn"));
+        resetBtn->setGeometry(QRect(290, 410, 181, 71));
+        resetBtn->setFont(font);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
-        menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 649, 26));
+        menubar->setObjectName(QString::fromUtf8("menubar"));
+        menubar->setGeometry(QRect(0, 0, 800, 26));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
-        statusbar->setObjectName("statusbar");
+        statusbar->setObjectName(QString::fromUtf8("statusbar"));
         MainWindow->setStatusBar(statusbar);
 
         retranslateUi(MainWindow);
@@ -101,9 +97,12 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        label->setText(QCoreApplication::translate("MainWindow", "Enter the first number: ", nullptr));
-        label_2->setText(QCoreApplication::translate("MainWindow", "Enter the second number: ", nullptr));
         calcBtn->setText(QCoreApplication::translate("MainWindow", "Calculate", nullptr));
+        label->setText(QCoreApplication::translate("MainWindow", "Enter the first number:", nullptr));
+        num1->setText(QString());
+        label_2->setText(QCoreApplication::translate("MainWindow", "Enter the second number:", nullptr));
+        num2->setText(QString());
+        result->setText(QString());
         resetBtn->setText(QCoreApplication::translate("MainWindow", "Reset", nullptr));
     } // retranslateUi
 
